@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16890" started-at="2020-08-20T06:45:56Z" finished-at="2020-08-20T06:46:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16890" started-at="2020-08-20T06:45:56Z" finished-at="2020-08-20T06:46:13Z">
+      <class name="PSI.CreatePurchaseOrder">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:PSI.CreatePurchaseOrder@16216b3]" name="openBrowser" is-config="true" duration-ms="5942" started-at="2020-08-20T12:15:56Z" finished-at="2020-08-20T12:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:PSI.CreatePurchaseOrder@16216b3]" name="login" is-config="true" duration-ms="5886" started-at="2020-08-20T12:16:02Z" finished-at="2020-08-20T12:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="toCreatePurchase()[pri:0, instance:PSI.CreatePurchaseOrder@16216b3]" name="toCreatePurchase" duration-ms="5040" started-at="2020-08-20T12:16:08Z" finished-at="2020-08-20T12:16:13Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+	Syntax error on tokens, delete these tokens
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+	Syntax error on tokens, delete these tokens
+
+	at com.Tiger.pom.CreatePurchaseOrderPage.<init>(CreatePurchaseOrderPage.java:103)
+	at PSI.CreatePurchaseOrder.toCreatePurchase(CreatePurchaseOrder.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreatePurchase -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:PSI.CreatePurchaseOrder@16216b3]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-20T12:16:13Z" finished-at="2020-08-20T12:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:PSI.CreatePurchaseOrder@16216b3]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-08-20T12:16:13Z" finished-at="2020-08-20T12:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- PSI.CreatePurchaseOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
